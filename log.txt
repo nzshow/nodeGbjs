@@ -1,0 +1,4 @@
+This is a log.
+This is an info.
+This is an error.
+This is a warn.
