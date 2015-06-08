@@ -54,7 +54,7 @@ server.on('end', function () {
     console.log('Server closed.')
 });
 
-server.on('close', function (err) {
+server.on('error', function (err) {
     if(err.code){
         console.error(err.code)
     }
