@@ -9,7 +9,7 @@ http.createServer(function (req,res) {
     }else if('/write'==urlObj.pathname){
         res.writeHead(200,{
             "Content-Type":"text/html;charset==utf-8",
-            "Set-Cookie":["zname="+encodeURIComponent("珠峰")+";path=/read1","age=27;path=/read2"];
+            "Set-Cookie":["zname="+encodeURIComponent("珠峰")+";path=/read1","age=27;path=/read2"]
 
         })
         res.end('ok');
